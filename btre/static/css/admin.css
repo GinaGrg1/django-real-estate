@@ -1,0 +1,35 @@
+#header {
+    height: 50px;
+    background: #10284e;
+    color: #fff;
+}
+
+#branding h1{
+    color: #fff;
+}
+
+a:link,
+a:visited {
+    color: #10284e;
+}
+
+/* This is for changing the color of the second Listings ' */
+div.breadcrumbs {
+    background: #30caa0;
+    color: #10284e;
+}
+
+/* a is for links. This will change the color of Home & Listings */
+div.breadcrumbs a{
+    color: #333;
+}
+
+.module h2, .module caption, .inline-group h2 {
+    background: #30caa0;
+}
+
+/* These `.button, input[....].., a.button` are copied from the page -> inspect  */
+.button, input[type=submit], input[type=button], .submit-row input, a.button {
+    background: #10284e;
+    color: #fff;
+}
